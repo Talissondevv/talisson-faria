@@ -1,8 +1,10 @@
+import Text from "./Text"
+
 function App() {
 
   return (
     <>
-      <p className='mx-auto p-3'>Hello World!</p>
+      <Text as="h1" className="text-xl">Hello World!</Text>
     </>
   )
 }

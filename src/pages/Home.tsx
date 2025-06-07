@@ -7,13 +7,13 @@ export default function Home() {
     function Hero() {
         return (
             <section className="flex items-center justify-between">
-                <div className="flex container justify-center sm:items-start items-center font-bold uppercase sm:h-200 h-100 flex-col">
+                <div className="flex container justify-center lg:items-start items-center font-bold uppercase sm:h-200 h-75 flex-col">
                     <Text className="sm:text-4xl text-3xl" as="h2">Olá, me chamo Talisson!</Text>
-                    <Text as="p" className="sm:w-2xl w-sm sm:text-base text-[0.875rem] sm:font-bold font-semibold sm:text-start text-center">
+                    <Text as="p" className="lg:w-2xl w-sm lg:text-base text-[0.875rem] lg:font-bold font-semibold lg:text-start text-center">
                         Sou um desenvolvedor apaixonado por criar aplicações front-end. Tenho 19 anos e estou atualmente cursando Análise e Desenvolvimento de Sistemas.
                     </Text>
                     <div>
-                        <Button className="rounded shadow-sm my-3">Conheça meu trabalho</Button>
+                        <Button className="rounded shadow-sm lg:my-3 my-5">Conheça meu trabalho</Button>
                     </div>
                 </div>
             </section>

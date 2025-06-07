@@ -1,10 +1,10 @@
-import Text from "./Text"
+import Home from "./pages/Home"
 
 function App() {
 
   return (
     <>
-      <Text as="h1" className="text-xl">Hello World!</Text>
+      <Home />
     </>
   )
 }

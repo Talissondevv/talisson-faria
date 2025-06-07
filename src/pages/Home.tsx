@@ -16,6 +16,7 @@ export default function Home() {
                         <Button className="rounded shadow-sm lg:my-3 my-5">Conheça meu trabalho</Button>
                     </div>
                 </div>
+
             </section>
         )
     }

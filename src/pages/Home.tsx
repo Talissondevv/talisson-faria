@@ -6,7 +6,7 @@ export default function Home() {
 
     function Hero() {
         return (
-            <section className="flex items-center justify-between">
+            <section className="flex items-center justify-between" id="sobre-mim">
                 <div className="flex container justify-center lg:items-start items-center font-bold uppercase sm:h-200 h-75 flex-col">
                     <Text className="sm:text-4xl text-3xl" as="h2">Olá, me chamo Talisson!</Text>
                     <Text as="p" className="lg:w-2xl w-sm lg:text-base text-[0.875rem] lg:font-bold font-semibold lg:text-start text-center">
@@ -21,6 +21,25 @@ export default function Home() {
         )
     }
 
+    function ProjectSection() {
+        return (
+            <section id="projetos">
+                <div className="flex items-center gap-10">
+                    <hr className="text-white w-full" />
+                    <div className="lg:w-2xl text-center flex justify-center">
+                        <h2 className="text-white font-bold lg:text-3xl text-xl uppercase">Meus Projetos</h2>
+                    </div>
+                    <hr className="text-white w-full" />
+                </div>
+
+
+                <div>
+
+                </div>
+            </section>
+        )
+    }
+
 
     return (
         <>
@@ -29,6 +48,7 @@ export default function Home() {
             </div>
             <div className="container mx-auto">
                 <Hero />
+                <ProjectSection />
             </div>
         </>
     )

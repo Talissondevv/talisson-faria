@@ -11,9 +11,9 @@ export default function Header() {
                 </div>
                 <div>
                     <ul className="flex gap-3 text-white text-sm sm:text-lg items-center">
-                        <li>Sobre Mim</li>
-                        <li>Projetos</li>
-                        <li>Contato</li>
+                        <li><a href="#sobre-mim">Sobre Mim</a></li>
+                        <li><a href="#projetos">Projetos</a></li>
+                        <li><a href="#contato">Contato</a></li>
                     </ul>
                 </div>
             </nav>

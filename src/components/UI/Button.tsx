@@ -1,6 +1,7 @@
 
 const buttonVariants = {
     default: 'text-white bg-[#ff5e62] px-3 py-2 cursor-pointer',
+    primary: 'text-gray-900 uppercase text-sm bg-[#ffa0a2] px-3 py-2 cursor-pointer'
 }
 
 type Variant = keyof typeof buttonVariants;

@@ -25,7 +25,7 @@ export default function Home() {
     function ProjectSection() {
         return (
             <section id="projetos">
-                <div className="flex items-center gap-10 py-10">
+                <div className="flex items-center gap-10 lg:py-15 py-10">
                     <hr className="text-white w-full" />
                     <div className="lg:w-2xl text-center flex justify-center">
                         <h2 className="text-white font-bold lg:text-3xl text-xl uppercase">Meus Projetos</h2>
@@ -34,7 +34,7 @@ export default function Home() {
                 </div>
 
 
-                <div className="flex gap-5 md:flex-col sm:flex-col flex-col lg:flex-row items-center">
+                <div className="flex gap-5 md:flex-col sm:flex-col flex-col lg:flex-row items-center lg:justify-center">
                     <Card title="TransiScale" imageUrl="https://i.imgur.com/jpX8NMH.jpeg">
                         Ferramenta que auxilia gestores na transição de escalas 6x1 para 4x3,
                         simulando impactos operacionais e sugerindo ajustes automáticos nos turnos.

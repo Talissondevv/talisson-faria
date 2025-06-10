@@ -3,7 +3,7 @@ import Text from "./Text"
 
 
 const cardVariants = {
-    default: 'w-2xs h-max p-3 bg-[#ff5e62] rounded-sm',
+    default: 'w-2xs h-max p-3 bg-[#ff5e62] rounded-sm shadow-2xl',
     custom: ''
 }
 
